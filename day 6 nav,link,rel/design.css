@@ -1,0 +1,51 @@
+h1 {
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(39, 39, 230);
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+}
+
+nav a {
+
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+#menu {
+    margin: 10px;
+    background: #b8c3dd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration: dashed;
+}
+
+.course {
+    background: #b8c3dd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #353638;
+    padding: 20px;
+}
