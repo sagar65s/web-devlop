@@ -1,0 +1,55 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-image: url(flower.png);
+    background-attachment: fixed;
+}
+
+.example {
+    padding: 10px;
+    border-left: 10px solid rgb(255, 0, 157);
+    background-color: rgb(250, 209, 252);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.cone {
+    text-align: left;
+    font-weight: bold;
+}
+
+.sone {
+    color: blueviolet;
+}
+
+.ctwo {
+    text-decoration: underline blue;
+    font-weight: bold;
+    text-indent: 80px;
+}
+
+.stwo {
+    background-color: aqua;
+}
+
+.cthree {
+    text-transform: uppercase;
+    word-spacing: 40px;
+}
+
+.cfour {
+    text-transform: capitalize;
+    text-decoration: overline rgb(21, 255, 0);
+}
+
+.sfour {
+    letter-spacing: 20px;
+
+}
+
+.cfive {
+    font-style: italic;
+    line-height: 40px;
+}
