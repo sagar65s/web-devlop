@@ -1,0 +1,47 @@
+body {
+    background-image: url(img.jpg);
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+
+}
+
+.colour {
+    padding: 10px;
+    border-left: 10px solid rgb(255, 0, 170);
+    background-color: rgb(166, 255, 196);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: rgb(106, 255, 156);
+    text-align: center;
+    color: rgb(35, 0, 189);
+
+
+}
+
+.co1 {
+    color: red;
+
+}
+
+.co2 {
+    color: #001191;
+}
+
+.co3 {
+    color: rgb(247, 0, 255);
+}
+
+.co4 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.co5 {
+    color: hsl(150, 100%, 20%);
+}
