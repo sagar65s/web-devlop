@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.dashboard {
+    grid-area: main;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin: 10px 0 5px;
+}
+
+.product p {
+    color: rgb(12, 107, 0);
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+body {
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.959);
+    color: white;
+    padding: 1px;
+}
+
+select {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.forms {
+    padding: 10px;
+    background-color: #eeeeee;
+    max-width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.date {
+    grid-column-start: 6;
+}
+
+.day {
+    background-color: rgb(240, 236, 236);
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(211, 208, 208, 0.253);
+}
+
+li {
+    padding: 10px;
+}
+
+.cal {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.font {
+    color: rgba(87, 87, 87, 0.836);
+    text-align: center;
+}
+
+.ft {
+    text-align: left;
+}
+
+.f {
+    text-indent: 50px;
+}
+

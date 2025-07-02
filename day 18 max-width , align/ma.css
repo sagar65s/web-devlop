@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(189, 255, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.width {
+    background-color: rgb(255, 252, 65);
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-indent: 50px;
+
+}
+
+.max-width {
+    background-color: #ff5c5c;
+    max-width: 700px;
+    padding: 10px;
+    text-align: left;
+    text-indent: 50px;
+}

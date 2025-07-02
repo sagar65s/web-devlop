@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(183, 222, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    background-color: rgb(112, 121, 255);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.model {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 900;
+}
+
+.model-index {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.model.active {
+    display: flex;
+}
+
+button {
+    background-color: rgb(9, 255, 9);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}

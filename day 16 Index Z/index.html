@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Z</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="index">
+        <h1>welcome to My Website1 Morning</h1>
+        <p>Click Start Button 1 </p>
+        <button onclick="openmodel1()">Start</button>
+    </div>
+    <br>
+    <div class="index">
+        <h1>welcome to My Website 2 After Noon</h1>
+        <p>Click Start Button 2</p>
+        <button onclick="openmodel2()">Start</button>
+    </div>
+    <br>
+    <div class="index">
+        <h1>welcome to My Website 3 Evening</h1>
+        <p>Click Start Button 3</p>
+        <button onclick="openmodel3()">Start</button>
+    </div>
+    <br>
+
+    <div class="model" id="pop1">
+        <div class="model-index">
+            <h1>Good Morning</h1>
+            <button onclick="closemodel1()">Close</button>
+        </div>
+    </div>
+    <div class="model" id="pop2">
+        <div class="model-index">
+            <h1>Good After Noon</h1>
+            <button onclick="closemodel2()">Close</button>
+        </div>
+    </div>
+    <div class="model" id="pop3">
+        <div class="model-index">
+            <h1>Good Evening</h1>
+            <button onclick="closemodel3()">Close</button>
+        </div>
+    </div>
+    <script>
+        function openmodel1() {
+            document.getElementById('pop1').classList.add('active');
+        }
+        function openmodel2() {
+            document.getElementById('pop2').classList.add('active');
+        }
+        function openmodel3() {
+            document.getElementById('pop3').classList.add('active');
+        }
+
+
+        function closemodel1() {
+            document.getElementById('pop1').classList.remove('active');
+        }
+        function closemodel2() {
+            document.getElementById('pop2').classList.remove('active');
+        }
+        function closemodel3() {
+            document.getElementById('pop3').classList.remove('active');
+        }
+
+    </script>
+</body>
+
+</html>
