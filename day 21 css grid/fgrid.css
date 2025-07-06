@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 0.1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.view {
+    grid-area: main;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+}
+
+.view>article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin: 10px 0 5px;
+}
+
+.product>button {
+    background-color: rgb(0, 255, 170);
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.color {
+    color: rgb(12, 107, 0);
+    font-weight: bold;
+    font-style: normal;
+    text-indent: 0px;
+}
+
+p {
+    font-style: oblique;
+    text-indent: 30px;
+}
