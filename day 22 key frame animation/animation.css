@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 171, 171);
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    animation: ani;
+    margin: 20px auto;
+}
+
+.left {
+    animation: leftside 3s ease-in-out infinite;
+}
+
+@keyframes leftside {
+
+    0%,
+    100% {
+        transform: translateX(0);
+        background-color: #6666ff;
+    }
+
+    50% {
+        transform: translateX(-400%);
+        background-color: rgba(30, 255, 0, 0.664);
+    }
+}
+
+.right {
+    animation: rightside 3s ease-in-out infinite;
+}
+
+@keyframes rightside {
+
+    0%,
+    100% {
+        transform: translateX(0);
+        background-color: #6666ff;
+    }
+
+    50% {
+        transform: translateX(400%);
+        background-color: rgba(30, 255, 0, 0.664);
+    }
+}
+
+.design {
+    animation: glow 2s ease-in-out infinite alternate;
+    cursor: pointer;
+    box-shadow: 0 0 30px blue;
+    transition: transform 0.2s ease;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.design:hover {
+    transform: scale(1.1);
+}
+
+@keyframes design {
+    from {
+        box-shadow: 0 0 10px blue, 0 0 20px blue;
+    }
+
+    to {
+        box-shadow: 0 0 10px blue, 0 0 20px blue;
+    }
+}
+
+.animation {
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    padding: 2px;
+    position: relative;
+    margin: 20px auto;
+    animation: anime 5s ease-in-out infinite;
+}
+
+@keyframes anime {
+    0% {
+        background-color: #eeff00;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: #ff5100;
+        left: 400px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: #ff00d4;
+        left: 400px;
+        top: 400px;
+    }
+
+    75% {
+        background-color: #15ff00;
+        left: 0px;
+        top: 400px;
+    }
+
+    100% {
+        background-color: #eeff00;
+        left: 0px;
+        top: 0px;
+    }
+}
